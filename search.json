@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "commitee.html",
+    "href": "commitee.html",
+    "title": "Meet the Committee",
+    "section": "",
+    "text": "Meet the Committee\nThe R-HTA in LMICs team comprises individuals from around the world with diverse backgrounds, all united by a commitment to improving healthcare decision-making through open-source tools and collaborative learning.\n\nCo-Chairs\n\n\n\n\n\n\n\n\nBuhle Ndweni\n\n\nLecturer in Health Economics\n\n\nBuhle Ndweni is Co-chair and founding director of the ‘R-HTA in LMICs’ Chapter. She’s currently a PhD Candidate at the University of Cape Town, South Africa, where she’s part of an NIHR Global health Research funded clinical trial investigating fungal infections in patients living with advanced HIV disease. She holds an MSc Health Economics and Decision Modelling (MSc HEDM) degree from the University of Sheffield, UK. She is skilled in building economic models and performing data analysis using Excel, VBA, R, STATA, Simul8 and WinBUGS (for Bayesian analysis using Markov chain Monte Carlo methods). Ndweni is passionate about global health research and finding innovative solutions to improve access to affordable, quality healthcare for all, especially disadvantaged communities in LMICs. She is on a quest to make a significant contribution in healthcare development and investment across the African continent and beyond. linkedin: https://www.linkedin.com/in/buhle-n-04a5661a/\n\nShow more \n\n\n\n\n\n\n\n\n\n\n\nCarina Behr\n\n\nHealth Economist\n\n\nCarina is a health economist with a background in industrial engineering. Her expertise lie in complex simulation modelling. She holds a BSc and an MSc in Industrial engineering from the University of Pretoria and University of Twente, respectively. Carina completed her PhD in health economic modelling, also at the University of Twente in the Netherlands, where her research focused on a multi-disease screening program. Carina is currently working as a health economist at Lumanity, building and adapting global cost-effectiveness models for reimbursement submissions in various countries.\n\nShow more \n\n\n\n\n\n\n\nScientific Committee Members\n\n\n\n\n\n\n\n\nJoshua Soboil\n\n\nHealth Economist\n\n\nJoshua is a founding member of R-HTA in LMICs and former Co-Chair. Joshua enjoys problem solving and has developed a special love for evidence synthesis and advanced health economic decision-modelling techniques, using languages such as BUGS/JAGS and Stan coupled with R. His own work includes the ongoing development of a sensitivity analysis framework for HTA in Middle-Income Countries (MICs)\n\nShow more \n\n\n\n\n\n\n\n\n\n\n\nIslem Meherzi\n\n\nData Science Engineer\n\n\nIslem is a Senior Data Science Engineer with over 8 years of experience specializing in healthcare data solutions. She is also a researcher dedicated to advancing healthcare innovation through cutting-edge research projects that leverage public health data. She has successfully led projects in Data Science, Robotic Process Automation (RPA) for data, Natural Language Processing (NLP), automated testing, and containerization. Her expertise spans a variety of core tools and techniques, including R programming, DevOps practices, and Quarto. Islem combines deep technical knowledge with a strong passion for problem-solving, collaboration, and knowledge sharing to deliver impactful solutions that improve healthcare outcomes.\n\nShow more \n\n \n\n\n\n\n\n\n\n\n\nSatoshi Koiso, MDP, BVSc\n\n\nResearch Specialist\n\n\nSatoshi is a research specialist with expertise in health policy and decision analyses, focusing on simulation modeling and cost-effectiveness evaluations. He holds a Bachelor of Veterinary Science from the University of Tokyo and a Master of Development Practice from UC Berkeley. His research spans disease modeling, public health strategies, and global health policy, driven by a commitment to advancing evidence-based decision-making in resource-limited settings. As a Science Committee member of R-HTA in LMICs, Satoshi leverages his proficiency in R to support health technology assessment and foster capacity-building among researchers and practitioners in low- and middle-income countries.\n\nShow more \n\n\n\n\n\n\n\n\n\n\n\nHannibal Musarurwa\n\n\nSenior Lecturer\n\n\nHannibal Tafadzwa Musarurwa is a distinguished senior academic at the Medical School of Walter Sisulu University in Mthatha. With a robust background in biotechnology, molecular biology, science communication, and biostatistics, he has significantly advanced research in traditional medicine as well as cardiovascular and metabolic physiology. Currently, his academic endeavours focus on the pivotal roles of traditional health practitioners in rural communities and the effects of antiretroviral drugs on the microbiome. Adopting a transdisciplinary and interdisciplinary approach, he seamlessly connects scientific research with community health, championing holistic and inclusive healthcare delivery in culturally and epidemiologically diverse low- and middle-income settings. Moreover, he plays an active role in scientific committees that empower scientists and researchers from these regions to utilise R for health technology assessments, while also serving as a judge for PAICTA hackathons.\n\nShow more \n\n\n\n\n\n\n\n\n\n\n\nFederico Rodriguez Cairoli\n\n\nMedical Doctor\n\n\nHTA researcher with a focus on pharmacoeconomics and epidemiology at IECS.\n\nShow more"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "\nGet in Touch\n",
+    "section": "",
+    "text": "We’d love to hear from you. Whether you have questions, collaboration ideas, or would like to request support for your institution, please reach out using the form below.\n\n\nYour Name \nYour Email \nMessage\n\n\nSend Message"
+  },
+  {
+    "objectID": "past-events.html",
+    "href": "past-events.html",
+    "title": "Past Events",
+    "section": "",
+    "text": "Past Events\nA record of our previous workshops, webinars, and community events. All materials are shared openly after each session.\n\n\n\n\nIntroduction to R for HTA Modelling – 25 September 2023\n\n\nDate: September 25, 2023\n\n\nThis half-day interactive tutorial trained LMIC health analysts on using R for HTA modelling. No prior R experience was required.\n\nView Resources\n\n\n\n\nAdvanced R-HTA Modelling – 20 January 2023\n\n\nDate: January 20, 2023\n\n\nParticipants learned how to convert Excel-based models to R and build interactive tools with Shiny.\n\nView Resources\n\n\n\n\nIntermediary R-HTA Tutorial – 20 September 2022\n\n\nDate: September 20, 2022\n\n\nHands-on workshop on sick-sicker models using R. Built on knowledge from Q2 tutorial.\n\nView Resources\n\n\n\n\nIntroductory R-HTA Tutorial – 21 June 2022\n\n\nDate: June 21, 2022\n\n\nParticipants gained practical skills using DARTH in a simple sick-sicker model.\n\nView Resources\n\n\n\n\nInaugural Presentation-based Workshop – 23 February 2022\n\n\nDate: February 23, 2022\n\n\n\nView Resources"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R for HTA in LMICs",
+    "section": "",
+    "text": "Upcoming Event\n\n\n Reserve Your Spot →"
+  },
+  {
+    "objectID": "index.html#who-we-are",
+    "href": "index.html#who-we-are",
+    "title": "R for HTA in LMICs",
+    "section": "Who We Are",
+    "text": "Who We Are\nR-HTA in LMICs is the regional chapter of the global R-HTA consortium. We promote the use of R for health technology assessment in LMICs through open-access tutorials, workshops, and curated resources.\nLearn More About Us →"
+  },
+  {
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "R for HTA in LMICs",
+    "section": "What We Do",
+    "text": "What We Do\n\n\nWorkshops & Training\nHands-on R training sessions for health economists — from introductory modelling to advanced cost-effectiveness analysis.\n\nBrowse Workshops »\n\n\n\nLearning Resources\nCurated tools, packages, and references for applying R in HTA contexts across diverse settings.\n\nExplore Resources »\n\n\n\nEvents\nWorkshops and webinars led by international experts, open to students, academics, and practitioners.\n\nView Past Events »"
+  },
+  {
+    "objectID": "index.html#get-involved",
+    "href": "index.html#get-involved",
+    "title": "R for HTA in LMICs",
+    "section": "Get Involved",
+    "text": "Get Involved\nWe welcome collaborators, learners, and partner institutions. There are several ways to connect with us:\n\nExplore our open-source code and materials on GitHub\nContact us with questions, collaboration ideas, or to request support for your institution\nJoin our mailing list via the R-HTA main site"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "R-HTA is a consortium dedicated to promoting the use of R for health economics and health technology assessment (HTA). The R for HTA in LMICs chapter is the regional arm of this consortium, focused on bringing open-source analytical capacity to HTA analysts and healthcare institutions in low- and middle-income countries (LMICs). We host an annual workshop and quarterly tutorials, providing a platform where LMIC students and members of partner organisations can present their work, share experiences, and develop a wide range of R-based analytical skills.\n\n\n\nTo empower health systems in LMICs with cutting-edge, reproducible, and accessible analytical tools for HTA — built on the R programming language.\nLearn more about our workshops and learning resources designed for both beginners and experienced practitioners.\n\n\n\n\nWhile R-HTA operates as a global consortium, our LMIC chapter addresses challenges and opportunities that are specific to resource-constrained settings. We focus on:\n\nRegional capacity building — partnering with universities, ministries of health, and research institutions across Africa, Asia, and Latin America to embed R-based HTA skills locally\nAccessible, context-relevant training — developing tutorials and workshop content grounded in LMIC datasets, disease burdens, and health system realities\nReducing software cost barriers — promoting R as a free, powerful alternative to costly proprietary tools that many LMIC institutions cannot afford\nCommunity of practice — connecting analysts across LMICs so that knowledge, code, and experience can be shared across borders\n\nContact us to discuss how we can support your institution or region.\n\n\n\n\nHTA in LMICs faces distinct challenges:\n\nHeavy reliance on proprietary software such as Microsoft Excel and TreeAge\nLimited institutional budgets and restricted access to advanced analytical tools\nA shortage of hands-on, practical R training tailored to HTA contexts\n\nAt the same time, health systems in LMICs are rapidly evolving — particularly under the drive toward Universal Health Coverage (UHC) — creating an urgent need for:\n\nComplex modelling approaches (e.g. oncology, rare diseases, infectious disease)\nScalable, transparent, and reproducible analytical frameworks\nLocal capacity-building and sustainable knowledge transfer\n\n\n\n\n\n\nWorkshops & Training — covering R fundamentals, HTA methodology, essential R packages, and practical modelling techniques across diverse contexts. See the Workshops page for details.\nAdvanced tutorials — building cost-effectiveness models and interactive decision tools using Shiny.\nFree resources and reproducible code — all available on our GitHub.\n\nWe work alongside partners to provide mentoring, technical assistance, and bespoke solutions for regional health needs.\n\n\n\n\nScalable\nR handles complex, multi-state HTA models more efficiently than spreadsheet-based tools. Read more\nReproducible\nWith Git, Quarto/RMarkdown, and Shiny, models can be shared and version-controlled, easily updated and audited, and delivered as interactive, shareable applications.\nOpen and Community-Driven\nR’s vibrant health economics ecosystem includes widely used packages such as BCEA (Bayesian cost-effectiveness analysis), heemod (Markov models for HTA), hesim (health economic simulation), and dampack (decision analytic modelling).\n\n\n\n\nWe welcome collaborators, learners, and institutions alike — join us in building a stronger foundation for HTA in LMICs using R.\nVisit our contact page to connect with the team."
+  },
+  {
+    "objectID": "about.html#our-vision",
+    "href": "about.html#our-vision",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "To empower health systems in LMICs with cutting-edge, reproducible, and accessible analytical tools for HTA — built on the R programming language.\nLearn more about our workshops and learning resources designed for both beginners and experienced practitioners."
+  },
+  {
+    "objectID": "about.html#our-chapters-unique-role",
+    "href": "about.html#our-chapters-unique-role",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "While R-HTA operates as a global consortium, our LMIC chapter addresses challenges and opportunities that are specific to resource-constrained settings. We focus on:\n\nRegional capacity building — partnering with universities, ministries of health, and research institutions across Africa, Asia, and Latin America to embed R-based HTA skills locally\nAccessible, context-relevant training — developing tutorials and workshop content grounded in LMIC datasets, disease burdens, and health system realities\nReducing software cost barriers — promoting R as a free, powerful alternative to costly proprietary tools that many LMIC institutions cannot afford\nCommunity of practice — connecting analysts across LMICs so that knowledge, code, and experience can be shared across borders\n\nContact us to discuss how we can support your institution or region."
+  },
+  {
+    "objectID": "about.html#why-focus-on-lmics",
+    "href": "about.html#why-focus-on-lmics",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "HTA in LMICs faces distinct challenges:\n\nHeavy reliance on proprietary software such as Microsoft Excel and TreeAge\nLimited institutional budgets and restricted access to advanced analytical tools\nA shortage of hands-on, practical R training tailored to HTA contexts\n\nAt the same time, health systems in LMICs are rapidly evolving — particularly under the drive toward Universal Health Coverage (UHC) — creating an urgent need for:\n\nComplex modelling approaches (e.g. oncology, rare diseases, infectious disease)\nScalable, transparent, and reproducible analytical frameworks\nLocal capacity-building and sustainable knowledge transfer"
+  },
+  {
+    "objectID": "about.html#what-we-offer",
+    "href": "about.html#what-we-offer",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "Workshops & Training — covering R fundamentals, HTA methodology, essential R packages, and practical modelling techniques across diverse contexts. See the Workshops page for details.\nAdvanced tutorials — building cost-effectiveness models and interactive decision tools using Shiny.\nFree resources and reproducible code — all available on our GitHub.\n\nWe work alongside partners to provide mentoring, technical assistance, and bespoke solutions for regional health needs."
+  },
+  {
+    "objectID": "about.html#why-r",
+    "href": "about.html#why-r",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "Scalable\nR handles complex, multi-state HTA models more efficiently than spreadsheet-based tools. Read more\nReproducible\nWith Git, Quarto/RMarkdown, and Shiny, models can be shared and version-controlled, easily updated and audited, and delivered as interactive, shareable applications.\nOpen and Community-Driven\nR’s vibrant health economics ecosystem includes widely used packages such as BCEA (Bayesian cost-effectiveness analysis), heemod (Markov models for HTA), hesim (health economic simulation), and dampack (decision analytic modelling)."
+  },
+  {
+    "objectID": "about.html#join-us",
+    "href": "about.html#join-us",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "We welcome collaborators, learners, and institutions alike — join us in building a stronger foundation for HTA in LMICs using R.\nVisit our contact page to connect with the team."
+  },
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "The R-HTA in LMICs chapter hosts annual workshops showcasing R applications in health economics, featuring contributions from students, academics, and practitioners across LMICs. All materials are shared openly after each event.\n\n\n2025\n\n\n\n\nDay 1 – Part 1: Overview of R Programming\n\n\n Islem Meherzi\n\n\nIntroduction to R fundamentals and real-world applications in HTA.\n\n\n GitHub  Slides  YouTube\n\n\n\n\nDay 1 – Part 2: Data Manipulation and Web Scraping in R\n\n\n Islem Meherzi\n\n\nUsing dplyr and rvest to prepare and scrape data for HTA workflows.\n\n\n GitHub  Slides  YouTube\n\n\n\n\nDay 2 – Cost-Effectiveness in R-HTA Modelling\n\n\n\n\n\nPractical workshop on implementing cost-effectiveness models in R for HTA.\n\n\n GitHub  YouTube\n\n\n\n\n\n\n\n2024\n\n\n\n\nIntroduction to R for HTA 2024\n\n\n\n\n\nGetting to grips with R for basic survival analysis and health economic analysis.\n\n\n GitHub  YouTube\n\n\n\n\n\n\n\n2022\n\n\n\n\nIntroduction\n\n\n\n\n\nIntroduction to the chapter and team motivation.\n\n\n YouTube\n\n\n\n\nGetting Started with Github and R\n\n\n Joshua Soboil\n\n\nTutorial on using GitHub with R and RStudio.\n\n\n GitHub  YouTube\n\n\n\n\nBCEA in R\n\n\n Dr Nathan Green\n\n\nIntroduction to the BCEA package for decision modelling.\n\n\n YouTube  Article\n\n\n\n\nShiny for HTA\n\n\n Rose Hart & Robert Smith\n\n\nShiny for HTA\n\n\n Rose Hart & Robert Smith\n\n\nWrapping health economic models in Shiny for interactivity.\n\n\n GitHub  YouTube\n\n\n\n\nFGM Cost Model\n\n\n David Tordup\n\n\nWHO-commissioned model on FGM in 27 countries.\n\n\n YouTube  Article\n\n\n\n\nPedagogical CEA Model of Screening\n\n\n Yi-Shu Lin\n\n\nA lightweight model for teaching screening cost-effectiveness.\n\n\n GitHub  YouTube  Resource\n\n\n\n\nBudget Impact Analysis\n\n\n Dr Federico Cairoli\n\n\nA Shiny calculator for budget impact.\n\n\n YouTube  Shiny App\n\n\n\n\nModelling COVID in R\n\n\n Dr Ivan Zimmerman\n\n\nUsing R instead of Excel for SIR models.\n\n\n YouTube\n\n\n\n\nCOVID Vaccine Cost-Effectiveness\n\n\n Dr Alejandro Lopez Osornio\n\n\nCost-effectiveness analysis of COVID-19 vaccines.\n\n\n GitHub  YouTube  Shiny App\n\n\n\n\nA Need for Change – CEA Coding Framework\n\n\n Dr Fernando Escudero\n\n\nFramework for improving transparency in R decision modelling.\n\n\n YouTube  Article\n\n\n\n\nPanel Discussion: Modern Software Tools for HTA\n\n\n Fernando Escudero, Gianluca Baio, Lucy Cunnama, Howard Thom\n\n\nPanel Discussion: Modern Software Tools for HTA\n\n\n Fernando Escudero, Gianluca Baio, Lucy Cunnama, Howard Thom\n\n\nPanel Discussion: Modern Software Tools for HTA\n\n\n Fernando Escudero, Gianluca Baio, Lucy Cunnama, Howard Thom\n\n\nPanel Discussion: Modern Software Tools for HTA\n\n\n Fernando Escudero, Gianluca Baio, Lucy Cunnama, Howard Thom\n\n\nPanel on software features for HTA in LMICs.\n\n\n YouTube"
+  },
+  {
+    "objectID": "resrcs.html",
+    "href": "resrcs.html",
+    "title": "Learning Resources",
+    "section": "",
+    "text": "Learning Resources\nA curated collection of tools, packages, tutorials, and references to support R-based health technology assessment across a range of experience levels and contexts.\n\n\n\nBooks & References\n\n\nRecommended books for HTA using R\n\n\n\nR for Health Technology Assessment: A comprehensive guide to the end-to-end use of R in health technology assessment (HTA), covering survival analysis, decision trees, multistate models, network meta-analysis, and discrete event simulation — all explained through real-world examples with annotated R code. Ideal for HTA modellers, regulators, and health economists, enriched with case studies contributed by community members.\n\nAuthors: Gianluca Baio, Howard Thom, Petros Pechlivanoglou\n\n\nCommunity Contributors: Buhle Ndweni, Joshua Soboil, Federico Cairoli\n\n\n\n\n\n\nBasic R\n\n\nIntroduction to R programming and scripting\n\n\n\nIntro2R script: Input/output and object manipulation\n\n\nIntro tutorial materials: Hands-on R learning materials from the June workshop\n\n\n\n\n\nIntermediate Modelling\n\n\nModeling tools based on DARTH group’s materials\n\n\n\nTime-Dependent Models paper (2022): Introduction to time-dependent decision models\n\n\nSimulation script: R script for simulating time-dependent models\n\n\nState-residence time model: Simulating state-residence times\n\n\nFunctions for analysis: R functions used for HTA model simulations\n\n\n\n\n\nAdvanced & Interactive Modelling\n\n\nAdvanced models and Shiny apps\n\n\n\nAdvanced HIV Markov model in R: Full workflow of a health economic Markov model\n\n\nExplore interactive app: Interactive HIV model using Shiny\n\n\n\n\n\nAdditional Resources\n\n\nRecommended open learning materials\n\n\n\nDARTH Decision Modeling Course: Free online course in health decision modeling\n\n\nISPOR Modeling Guidelines: Modeling practices and HTA methodology\n\n\nDecision Modelling in Health Economic Evaluation (book): Key textbook for HTA decision modeling"
+  },
+  {
+    "objectID": "abouttt.html",
+    "href": "abouttt.html",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "R-HTA is a consortium focused on promoting the use of R for health economics and health technology assessment (HTA). While its core members are from the Americas and the UK—representing government institutions like NICE, academia, and industry—R-HTA aims to serve a global community of analysts.\n\n\n\nTo empower LMIC (low- and middle-income countries) health systems with cutting-edge, reproducible, and accessible analytical tools for HTA using the R language.\nLearn more about our workshops and learning resources designed to build skills for both beginners and experienced practitioners.\n\n\n\n\nThe R-HTA in LMICs chapter is the regional arm of the R-HTA consortium. Its mission is to: - Introduce R as a viable alternative to costly software - Support LMIC analysts and institutions in adopting R for HTA - Share tailored educational resources and workshops\nWe believe that open-source tools like R can help bridge the digital and economic divide in health analysis, fostering a community that thrives on collaboration and shared innovation.\n\n\n\n\nHTA in LMICs is often constrained by: - Heavy reliance on proprietary software like Microsoft Excel and TreeAge - Limited budgets and access to advanced tools - Lack of hands-on, practical R training for HTA analysts\nMeanwhile, health systems in LMICs are rapidly evolving, especially under the drive toward Universal Health Coverage (UHC). This creates a growing need for: - Complex modelling (e.g. oncology, rare diseases) - Scalable and reproducible tools - Local capacity-building\nContact us to discuss how we can help bring these capabilities to your institution.\n\n\n\n\n\nWorkshops & Training Opportunities — covering R, Health Technology Assessment (HTA), essential R packages, and practical tips for applying R in diverse contexts. Explore more on our Workshops page.\nAdvanced tutorials — building cost-effectiveness models and interactive apps using Shiny.\nFree resources and code — all available on our GitHub.\n\nWe work side-by-side with partners, offering mentoring, technical assistance, and bespoke solutions for regional health needs.\n\n\n\n\nScalable\nR handles complex HTA models more efficiently than spreadsheet-based tools. Read more\nReproducible\nWith Git, RMarkdown, and Shiny, models can be: - Shared with version control - Easily updated - Delivered as interactive tools\nOpen and Community-Driven\nR’s vibrant health economics ecosystem includes: - BCEA - heemod - hesim - dampack\n\n\n\n\nWe welcome collaborators and learners alike—join us in building a stronger foundation for HTA in LMICs using R.\nVisit our contact page to connect with our team."
+  },
+  {
+    "objectID": "abouttt.html#our-vision",
+    "href": "abouttt.html#our-vision",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "To empower LMIC (low- and middle-income countries) health systems with cutting-edge, reproducible, and accessible analytical tools for HTA using the R language.\nLearn more about our workshops and learning resources designed to build skills for both beginners and experienced practitioners."
+  },
+  {
+    "objectID": "abouttt.html#what-is-r-hta-in-lmics",
+    "href": "abouttt.html#what-is-r-hta-in-lmics",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "The R-HTA in LMICs chapter is the regional arm of the R-HTA consortium. Its mission is to: - Introduce R as a viable alternative to costly software - Support LMIC analysts and institutions in adopting R for HTA - Share tailored educational resources and workshops\nWe believe that open-source tools like R can help bridge the digital and economic divide in health analysis, fostering a community that thrives on collaboration and shared innovation."
+  },
+  {
+    "objectID": "abouttt.html#why-focus-on-lmics",
+    "href": "abouttt.html#why-focus-on-lmics",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "HTA in LMICs is often constrained by: - Heavy reliance on proprietary software like Microsoft Excel and TreeAge - Limited budgets and access to advanced tools - Lack of hands-on, practical R training for HTA analysts\nMeanwhile, health systems in LMICs are rapidly evolving, especially under the drive toward Universal Health Coverage (UHC). This creates a growing need for: - Complex modelling (e.g. oncology, rare diseases) - Scalable and reproducible tools - Local capacity-building\nContact us to discuss how we can help bring these capabilities to your institution."
+  },
+  {
+    "objectID": "abouttt.html#what-we-offer",
+    "href": "abouttt.html#what-we-offer",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "Workshops & Training Opportunities — covering R, Health Technology Assessment (HTA), essential R packages, and practical tips for applying R in diverse contexts. Explore more on our Workshops page.\nAdvanced tutorials — building cost-effectiveness models and interactive apps using Shiny.\nFree resources and code — all available on our GitHub.\n\nWe work side-by-side with partners, offering mentoring, technical assistance, and bespoke solutions for regional health needs."
+  },
+  {
+    "objectID": "abouttt.html#why-r",
+    "href": "abouttt.html#why-r",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "Scalable\nR handles complex HTA models more efficiently than spreadsheet-based tools. Read more\nReproducible\nWith Git, RMarkdown, and Shiny, models can be: - Shared with version control - Easily updated - Delivered as interactive tools\nOpen and Community-Driven\nR’s vibrant health economics ecosystem includes: - BCEA - heemod - hesim - dampack"
+  },
+  {
+    "objectID": "abouttt.html#join-us",
+    "href": "abouttt.html#join-us",
+    "title": "About R-HTA in LMICs",
+    "section": "",
+    "text": "We welcome collaborators and learners alike—join us in building a stronger foundation for HTA in LMICs using R.\nVisit our contact page to connect with our team."
+  }
+]

@@ -1,0 +1,485 @@
+/* ============================================================
+   R-HTA in LMICs — Global Stylesheet
+   Colour palette:
+     Primary navy  : #1a3c6c
+     Brand blue    : #3C8DBC
+     Accent/CTA    : #e07b00  (orange — consistent with featured-event use)
+     Link blue     : #007acc
+   ============================================================ */
+
+/* ---------- Base ---------- */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 0.93rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  color: #1a3c6c;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  position: relative;
+}
+
+/* Tighter heading scale */
+h1 { font-size: 1.7rem; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 0.95rem; }
+
+/* Accent underline on h1 and h2 only */
+h1::after, h2::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #3C8DBC;
+  border-radius: 3px;
+}
+
+/* Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a3c6c;
+}
+
+/* ---------- Navbar ---------- */
+.navbar-nav > li > a {
+  font-size: 0.88em !important;
+  font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin-left: 4px;
+  margin-right: 4px;
+  letter-spacing: 0.01em;
+}
+
+/* ---------- Hero / Intro ---------- */
+.hero {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+  background-color: #e07b00;
+  border: 2px solid #e07b00;
+  color: #fff;
+  padding: 0.65rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+.btn-primary:hover {
+  background-color: #c96e00;
+  border-color: #c96e00;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #1a3c6c;
+  color: #1a3c6c;
+  padding: 0.65rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
+}
+.btn-outline:hover {
+  background-color: #1a3c6c;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* ---------- Section boxes ---------- */
+.section-box {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  color: #1a3c6c;
+}
+
+/* ---------- Card grid ---------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #f8fbff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+  border-top: 3px solid #3C8DBC;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+  font-size: 1rem;
+  color: #1a3c6c;
+  margin-bottom: 0.5rem;
+}
+.card h3::after {
+  display: none;
+}
+
+/* ---------- "Past events" link style ---------- */
+.past-events-link {
+  margin-top: 1.2rem;
+  font-weight: 700;
+}
+.past-events-link a {
+  color: #e07b00;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border 0.3s ease;
+}
+.past-events-link a:hover {
+  border-bottom: 1px solid #e07b00;
+  text-decoration: none;
+}
+
+/* ---------- Event highlight ---------- */
+.event-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f9fafb;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  gap: 1.5rem;
+  align-items: center;
+}
+.event-image {
+  flex: 1 1 300px;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.event-content {
+  flex: 2 1 400px;
+}
+.event-content h3 {
+  font-size: 1.3rem;
+  color: #1a202c;
+  margin-top: 0;
+}
+.event-content p {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+/* ---------- Past events grid ---------- */
+.past-events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+/* ---------- Event card (past-events page) ---------- */
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.event-card {
+  border: 1px solid #e0e8f0;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.event-card-body {
+  padding: 1.1rem 1.2rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.event-card h3 {
+  font-size: 1.05rem;
+  color: #1a2e4a;
+  margin: 0 0 0.4rem 0;
+  line-height: 1.4;
+}
+.event-card h3::after { display: none; }
+.event-card-date {
+  font-size: 0.85rem;
+  color: #5a6e85;
+  margin-bottom: 0.5rem;
+}
+.event-card-desc {
+  font-size: 0.92rem;
+  color: #4a5568;
+  flex: 1;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.event-card .btn {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  background-color: #e07b00;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  transition: background-color 0.2s ease;
+  display: inline-block;
+}
+.event-card .btn:hover {
+  background-color: #c96e00;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ---------- Content block (about page) ---------- */
+.content-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.content-block:nth-child(even) {
+  flex-direction: row-reverse;
+  background: #f0f6fa;
+}
+.content-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+.content-block img {
+  flex: 0 0 320px;
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+.content-block img:hover { transform: scale(1.05); }
+.content-text {
+  flex: 1;
+  min-width: 280px;
+}
+.content-text p { margin-bottom: 1rem; }
+
+/* ---------- Highlight box ---------- */
+.highlight {
+  background: #e6f4f9;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #3C8DBC;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+/* ---------- No-events placeholder ---------- */
+.no-events {
+  color: #777;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+/* ---------- Navbar brand / logo area ---------- */
+.custom-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.custom-logo {
+  height: 55px;
+  width: auto;
+}
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+.brand-title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.brand-subtitle {
+  font-size: 0.75rem;
+  color: #ccc;
+}
+
+/* ---------- Footer — floating card style ---------- */
+
+/* Base styles only — width/offset corrected by inline JS in _footer.html */
+.site-footer-outer {
+  box-sizing: border-box;
+  background: transparent;
+  padding: 2rem 3rem 2.5rem;   /* breathing room on all 4 sides around the card */
+}
+
+/* The card itself — centred inside the full-viewport wrapper */
+.site-footer {
+  max-width: 1200px;              /* card never grows beyond this */
+  margin: 0 auto;                 /* horizontally centred */
+  background-color: #f8f9fa;
+  border-radius: 20px;            /* well-rounded corners on all four sides */
+  border-top: 4px solid #3C8DBC; /* brand accent stripe */
+  padding: 2.5rem 4rem 1.5rem;
+  box-sizing: border-box;
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.07),
+    0 1px  4px rgba(0, 0, 0, 0.04);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-width: 180px;
+}
+.footer-logo {
+  height: 40px;
+  width: auto;
+}
+.footer-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1a3c6c;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+}
+.link-column h4 {
+  margin: 0 0 0.7rem 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #1a3c6c;
+}
+.link-column a {
+  display: block;
+  color: #555;
+  text-decoration: none;
+  margin-bottom: 0.4rem;
+  font-size: 0.88rem;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+.link-column a:hover {
+  color: #e07b00;
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+.footer-social a {
+  color: #555;
+  transition: color 0.2s, transform 0.2s;
+}
+.footer-social a:hover {
+  color: #e07b00;
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
+/* Bottom copyright bar — sits inside the card */
+.footer-bottom-wrapper {
+  /* no extra wrapper needed; bottom bar lives inside .site-footer */
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dde4ed;
+  font-size: 0.83rem;
+  color: #777;
+}
+.footer-bottom a {
+  color: #3C8DBC;
+  font-weight: 600;
+}
+
+/* ---------- Animations ---------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .content-block {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .content-block img { max-width: 100%; }
+  h1::after, h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .footer-container { flex-direction: column; align-items: flex-start; }
+  .footer-links { flex-direction: column; gap: 1.2rem; }
+  .site-footer { border-radius: 14px; padding: 1.8rem 2rem 1.2rem; }
+}
