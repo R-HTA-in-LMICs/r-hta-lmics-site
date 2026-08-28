@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2e61006cba2e3a17b9d2638c5017c76a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-89bf13ec4319bff50ce537e56bf4cb29.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -93,6 +96,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="carousel.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -154,15 +158,139 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="featured-event-box">
-<p class="event-label">
-Upcoming Event
-</p>
-<h2 class="event-title anchored">
-(Test example 2026-06-25) HTA in Practice - Live Session
-</h2>
-<p><img src="assets/images/events/new_event.jpg" class="event-banner" alt="(Test example 2026-06-25) HTA in Practice - Live Session"> <a class="btn btn-highlight" href="https://www.eventbrite.co.uk/e/r-foundations-and-introduction-to-r-hta-modelling-tickets-1276838922589?aff=oddtdtcreator" target="_blank">Reserve Your Spot →</a></p>
+<section class="rhta-carousel-wrap">
+<div class="rhta-carousel" id="rhtaCarousel">
+<button class="rhta-arrow rhta-arrow--prev" id="rhtaPrev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+<button class="rhta-arrow rhta-arrow--next" id="rhtaNext" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+<div class="rhta-track" id="rhtaTrack">
+<div class="rhta-slide rhta-slide--grad grad-1" data-duration="6000">
+  <div class="rhta-slide-body rhta-slide-body--center">
+    <i class="fa-solid fa-people-group rhta-icon"></i>
+    <h3 class="anchored">Meet the Committee</h3>
+    <p>The statisticians, health economists, and open-source builders steering R-HTA in LMICs.</p>
+    <a class="rhta-btn" href="./commitee.html">Meet the Team →</a>
+  </div>
 </div>
+
+<div class="rhta-slide rhta-slide--grad grad-2" data-duration="6000">
+  <div class="rhta-slide-body rhta-slide-body--center">
+    <i class="fa-solid fa-book-open rhta-icon"></i>
+    <h3 class="anchored">Learning Resources</h3>
+    <p>Curated R packages, tutorials, and case studies for HTA in real-world LMIC settings.</p>
+    <a class="rhta-btn" href="./resrcs.html">Start Exploring →</a>
+  </div>
+</div>
+
+<div class="rhta-slide rhta-slide--grad grad-3" data-duration="6000">
+  <div class="rhta-slide-body rhta-slide-body--center">
+    <i class="fa-brands fa-github rhta-icon"></i>
+    <h3 class="anchored">Explore the Code</h3>
+    <p>Open-source models, templates, and scripts, ready to fork, adapt, and reuse.</p>
+    <a class="rhta-btn" href="https://github.com/R-HTA-in-LMICs" target="_blank">Visit GitHub →</a>
+  </div>
+</div>
+
+<div class="rhta-slide rhta-slide--grad grad-4" data-duration="6000">
+  <div class="rhta-slide-body rhta-slide-body--center">
+    <i class="fa-solid fa-chalkboard-user rhta-icon"></i>
+    <h3 class="anchored">Workshops &amp; Training</h3>
+    <p>From your first R script to a full cost-effectiveness model, hands-on training for every level.</p>
+    <a class="rhta-btn" href="./workshops.html">Browse Workshops →</a>
+  </div>
+</div>
+
+<div class="rhta-slide rhta-slide--grad grad-5" data-duration="6000">
+  <div class="rhta-slide-body rhta-slide-body--center">
+    <i class="fa-solid fa-clock-rotate-left rhta-icon"></i>
+    <h3 class="anchored">Past Events</h3>
+    <p>Catch the recordings and highlights from webinars and workshops you may have missed.</p>
+    <a class="rhta-btn" href="./past-events.html">See What You Missed →</a>
+  </div>
+</div>
+
+</div><!-- /.rhta-track -->
+<div class="rhta-dots" id="rhtaDots"></div>
+</div><!-- /.rhta-carousel -->
+</section>
+
+<script>
+(function () {
+  const track    = document.getElementById('rhtaTrack');
+  const dotsEl   = document.getElementById('rhtaDots');
+  const prevBtn  = document.getElementById('rhtaPrev');
+  const nextBtn  = document.getElementById('rhtaNext');
+  const carousel = document.getElementById('rhtaCarousel');
+  if (!track) return;
+
+  const slides = Array.from(track.children);
+  let index = 0;
+  let timer = null;
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'rhta-dot' + (i === 0 ? ' is-active' : '');
+    dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+    dot.addEventListener('click', () => { goTo(i); schedule(); });
+    dotsEl.appendChild(dot);
+  });
+  const dots = Array.from(dotsEl.children);
+
+  function animateIn(slideEl) {
+    const body = slideEl.querySelector('.rhta-slide-body');
+    if (!body) return;
+    body.classList.remove('rhta-anim-in');
+    void body.offsetWidth; // force reflow so the animation replays
+    body.classList.add('rhta-anim-in');
+  }
+
+  function goTo(i) {
+    index = (i + slides.length) % slides.length;
+    track.style.transform = 'translateX(-' + (index * 100) + '%)';
+    dots.forEach((d, di) => d.classList.toggle('is-active', di === index));
+    carousel.classList.toggle('is-event-active', slides[index].classList.contains('rhta-slide--event'));
+    animateIn(slides[index]);
+  }
+  function next() { goTo(index + 1); }
+  function prev() { goTo(index - 1); }
+
+  function schedule() {
+    stop();
+    if (slides.length > 1) {
+      const dur = parseInt(slides[index].dataset.duration, 10) || 6000;
+      timer = setTimeout(() => { next(); schedule(); }, dur);
+    }
+  }
+  function stop() { if (timer) clearTimeout(timer); }
+
+  nextBtn.addEventListener('click', () => { next(); schedule(); });
+  prevBtn.addEventListener('click', () => { prev(); schedule(); });
+  carousel.addEventListener('mouseenter', stop);
+  carousel.addEventListener('mouseleave', schedule);
+  carousel.addEventListener('focusin', stop);
+  carousel.addEventListener('focusout', schedule);
+
+  let touchStartX = 0;
+  track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+  track.addEventListener('touchend', e => {
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(diff) > 40) { diff < 0 ? next() : prev(); schedule(); }
+  }, { passive: true });
+
+  carousel.setAttribute('tabindex', '0');
+  carousel.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') { next(); schedule(); }
+    if (e.key === 'ArrowLeft')  { prev(); schedule(); }
+  });
+
+  if (slides.length <= 1) {
+    prevBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
+  }
+
+  goTo(0);
+  schedule();
+})();
+</script>
 <section id="r-for-hta-in-lmics" class="level1 hero" style="background: linear-gradient(135deg, #eaf3fc 0%, #f0f7ff 100%); padding: 3.5rem 3rem; border-radius: 16px; text-align: left; border-left: 5px solid #1a3c6c;">
 <h1>R for HTA in LMICs</h1>
 <p><strong>A global initiative supporting health economists and decision modellers in low- and middle-income countries through open-source R tools.</strong></p>
@@ -209,62 +337,6 @@ Upcoming Event
 <li>Join our mailing list via the <a href="https://r-hta.org/" target="_blank">R-HTA main site</a></li>
 </ul>
 </section>
-<style>
-  .featured-event-box {
-  background-color: #fff8e1;
-  border-left: 6px solid #e07b00;
-  padding: 1.5rem 2rem;
-  margin-bottom: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  animation: fadeIn 0.8s ease-in;
-  text-align: center;
-}
-
-.event-label {
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #b36b00;
-  margin-bottom: 0.4rem;
-}
-
-.event-banner {
-  width: 100%;
-  max-height: 480px;
-  object-fit: contain; 
-  border-radius: 8px;
-  margin: 0 auto 1.2rem auto;
-  display: block;
-}
-
-.event-title {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #2d2d2d;
-  margin: 0.4rem 0 1rem 0;
-}
-
-.featured-event-box .btn {
-  background-color: #e07b00;
-  color: white;
-  padding: 0.7rem 1.6rem;
-  font-size: 1rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 700;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  display: inline-block;
-}
-
-.featured-event-box .btn:hover {
-  background-color: #c96e00;
-  transform: translateY(-2px);
-  text-decoration: none;
-}
-</style>
 
 
 
@@ -277,10 +349,13 @@ Upcoming Event
     <div class="footer-container">
 
       <!-- Logo and Brand -->
-      <div class="footer-brand">
-        <img src="assets/images/logo2-removebg-preview.png" alt="R-HTA in LMICs Logo" class="footer-logo">
-        <span class="footer-title">R-HTA in LMICs</span>
-      </div>
+<!-- Logo and Brand -->
+<a href="index.html" class="footer-brand-link">
+  <div class="footer-brand">
+    <img src="assets/images/logo2-removebg-preview.png" alt="R-HTA in LMICs Logo" class="footer-logo">
+    <span class="footer-title">R-HTA in LMICs</span>
+  </div>
+</a>
 
       <!-- Site Links -->
       <div class="footer-links">

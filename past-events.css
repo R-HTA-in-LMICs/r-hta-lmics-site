@@ -1,0 +1,61 @@
+/* =========================================================
+   Past / Upcoming Events page — small additions only.
+   Reuses .event-grid / .event-card / .btn / .highlight /
+   .no-events from styles.css; nothing there is overridden.
+   ========================================================= */
+
+/* ---------- "Upcoming" badge on upcoming-event cards ---------- */
+.upcoming-badge {
+  display: inline-block;
+  background: #fff3e0;
+  color: #b36b00;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- Countdown pill next to the date ---------- */
+.upcoming-countdown {
+  display: inline-block;
+  background: #eaf3fc;
+  color: #1a3c6c;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 12px;
+  margin-left: 0.4rem;
+}
+
+/* ---------- Hidden past-event cards (revealed by "See more") ---------- */
+.event-card.is-hidden {
+  display: none;
+}
+
+/* ---------- See more / show fewer button ---------- */
+.see-more-wrap {
+  text-align: center;
+  margin-top: 1.75rem;
+}
+
+.see-more-wrap .btn {
+  display: inline-block;
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  color: #3C8DBC;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.see-more-wrap .btn:hover {
+  color: #3C8DBC;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
